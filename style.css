@@ -1,4 +1,11 @@
-.design{
-    padding: 10px;
-    margin: 20px;
+.design {
+  padding: 10px;
+  margin: 20px;
+}
+.addclass {
+  width: 50%;
+  margin: 0 auto;
+}
+h1{
+    text-align: center;
 }
