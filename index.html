@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cricket team</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="show()">
+    <h1>Indian Cricket Team</h1>
+    <div id="addDiv">
+      <b>Player name</b
+      ><input
+        type="text"
+        id="name"
+        placeholder="Player name"
+        class="design"
+      /><br />
+
+      <b>Player Catagory</b
+      ><select id="catagory" class="design">
+        <option selected>NA</option>
+        <option>Batsman</option>
+        <option>Baller</option>
+        <option>All rounder</option></select
+      ><br />
+      <b>Player matches</b
+      ><input
+        type="number"
+        id="matches"
+        placeholder="no of matches"
+        class="design"
+      /><br />
+      <b>Total runs</b>
+      ><input type="number" id="runs" placeholder="total runs" class="design" />
+      <button id="add1" onclick="addPlayer()">Add player</button>
+    </div>
+    <hr />
+    <div id="editDiv">
+      <b>Player name</b
+      ><input
+        type="text"
+        id="name1"
+        placeholder="Player name"
+        class="design"
+      /><br />
+
+      <b>Player Catagory</b
+      ><select id="catagory1" class="design">
+        <option selected>NA</option>
+        <option>Batsman</option>
+        <option>Baller</option>
+        <option>All rounder</option></select
+      ><br />
+      <b>Player matches</b
+      ><input
+        type="number"
+        id="matches1"
+        placeholder="no of matches"
+        class="design"
+      /><br />
+      <b>Total runs</b>
+      <input type="number" id="runs1" placeholder="total runs" class="design" />
+      <button id="add1" onclick="updatePlayer()">Update table</button>
+    </div>
+    <hr />
+    <div id="showtable"><h1>hello</h1></div>
+  </body>
+</html>
